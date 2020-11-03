@@ -1,0 +1,23 @@
+[04-Feb-2018 17:31:27 Asia/Kuwait] PHP Fatal error:  Call to undefined function timeago() in /home/icskcloud/public_html/admin/application/controllers/Students_profile.php on line 109
+[13-Feb-2018 18:00:45 Asia/Kuwait] PHP Fatal error:  Call to undefined function timeago() in /home/icskcloud/public_html/admin/application/controllers/Students_profile.php on line 109
+[05-Mar-2018 10:08:30 Asia/Kuwait] PHP Fatal error:  Call to undefined function today_students_birthday() in /home/icskcloud/public_html/admin/application/controllers/Ajax.php on line 14
+[05-Mar-2018 10:08:40 Asia/Kuwait] PHP Fatal error:  Call to undefined function today_students_birthday() in /home/icskcloud/public_html/admin/application/controllers/Ajax.php on line 14
+[12-Mar-2018 18:16:02 Asia/Kuwait] PHP Fatal error:  Call to undefined function timeago() in /home/icskcloud/public_html/admin/application/controllers/Students_profile.php on line 109
+[12-Mar-2018 18:16:12 Asia/Kuwait] PHP Fatal error:  Call to undefined function timeago() in /home/icskcloud/public_html/admin/application/controllers/Students_profile.php on line 109
+[16-Mar-2018 16:20:20 Asia/Kuwait] PHP Fatal error:  Call to undefined function timeago() in /home/icskcloud/public_html/admin/application/controllers/Students_profile.php on line 109
+[18-Mar-2018 16:41:35 Asia/Kuwait] PHP Fatal error:  Call to undefined function check_transport_installment_paid() in /home/icskcloud/public_html/admin/application/views/student-fees/view-all-paid-form.php on line 128
+[18-Mar-2018 16:42:32 Asia/Kuwait] PHP Fatal error:  Call to undefined function check_transport_installment_paid() in /home/icskcloud/public_html/admin/application/views/student-fees/view-all-paid-form.php on line 128
+[21-Mar-2018 17:42:33 Asia/Kuwait] PHP Fatal error:  Call to undefined function timeago() in /home/icskcloud/public_html/admin/application/controllers/Students_profile.php on line 109
+[01-Apr-2018 20:38:37 Asia/Kuwait] PHP Fatal error:  Call to undefined function check_transport_installment_paid() in /home/icskcloud/public_html/admin/application/views/student-fees/view-all-paid-form.php on line 128
+[01-Apr-2018 20:39:12 Asia/Kuwait] PHP Fatal error:  Call to undefined function check_transport_installment_paid() in /home/icskcloud/public_html/admin/application/views/student-fees/view-all-paid-form.php on line 128
+[07-Apr-2018 16:19:33 Asia/Kuwait] PHP Fatal error:  Call to undefined function check_transport_installment_paid() in /home/icskcloud/public_html/admin/application/views/student-fees/view-all-paid-form.php on line 128
+[12-Apr-2018 00:04:23 Asia/Kuwait] PHP Fatal error:  Call to undefined function timeago() in /home/icskcloud/public_html/admin/application/controllers/Students_profile.php on line 109
+[17-Apr-2018 15:25:18 Asia/Kuwait] PHP Fatal error:  Call to undefined function check_transport_installment_paid() in /home/icskcloud/public_html/admin/application/views/student-fees/view-all-paid-form.php on line 128
+[25-Apr-2018 09:00:34 Asia/Kuwait] PHP Fatal error:  Call to undefined function timeago() in /home/icskcloud/public_html/admin/application/controllers/Students_profile.php on line 109
+[02-May-2018 17:01:25 Asia/Kuwait] PHP Fatal error:  Call to undefined function currency_format_new() in /home/icskcloud/public_html/admin/application/views/reports/branch-collection.php on line 40
+[02-May-2018 17:01:54 Asia/Kuwait] PHP Fatal error:  Call to undefined function currency_format_new() in /home/icskcloud/public_html/admin/application/views/reports/branch-collection.php on line 40
+[02-May-2018 17:04:36 Asia/Kuwait] PHP Fatal error:  Call to undefined function currency_format_new() in /home/icskcloud/public_html/admin/application/views/reports/branch-collection.php on line 40
+[03-May-2018 14:34:33 Asia/Kuwait] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/icskcloud/public_html/admin/application/models/Report.php on line 75
+[03-May-2018 14:34:49 Asia/Kuwait] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/icskcloud/public_html/admin/application/models/Report.php on line 75
+[03-May-2018 17:01:58 Asia/Kuwait] PHP Fatal error:  Call to undefined function ICSK Junior() in /home/icskcloud/public_html/admin/application/models/Report.php on line 31
+[03-May-2018 17:02:14 Asia/Kuwait] PHP Fatal error:  Call to undefined function ICSK Junior() in /home/icskcloud/public_html/admin/application/models/Report.php on line 31

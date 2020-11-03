@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.timetable_main { display: inline-block; width: 100%; }
+.timetable-column-content { display: inline-block; }
+.timetable_col { min-height: 50px; margin-right: 5px; }
+
+#timetable_table.table th { vertical-align: middle; }
+.timetable-class-section { padding: 0 0 20px; }
+#timetable_table.table .btn { margin-bottom: 0; }
+
+.modal-footer { display: none; }
+button { display: none; }

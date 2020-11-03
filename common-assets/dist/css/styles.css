@@ -1,0 +1,295 @@
+body{
+	background-image: url('../img/bgimg.jpg');
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  background-position-y: center;
+}
+.user_card form .form-control {
+    border: none;
+}
+.input-group-text.iconpad {
+    padding: 0 9.8px!important;
+}
+		.user_card {
+			height: 440px;
+			width: 350px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #d2d6de;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+		}
+		.captchaimg img{
+			height: 41px;
+		}
+		.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: linear-gradient(#be811d, #be811d, #f7d213, #870d12);
+			padding: 10px;
+			text-align: center;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+		.form_container {
+			margin-top: 100px;
+		}
+		.login_btn {
+			width: 100%;
+			background: #860d12 !important;
+			color: white !important;
+		}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.input-group-text {
+			background: #860d12 !important;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+		}
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+			background-color: #860d12 !important;
+		}
+		.form_container form{
+			width: 290px;
+		}
+
+
+
+		#captcha.captcha-box{
+		    width: 50%;
+		    float: left;
+		    height: 40px;
+		}
+		.inputcaptcha{
+			width: 50%!important;
+		}
+
+/*branch add*/
+.btn.btn-block.btn-red {
+    background-color: #be811d;
+    width: 100px;
+    color: #fff;
+}
+
+/**/
+
+/*toggle switch*/
+
+
+.switchToggle input[type=checkbox] {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	position: absolute;
+}
+
+.switchToggle label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 70px;
+	max-width: 70px;
+	height: 30px;
+	background: #d1d1d1;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+.switchToggle label:after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 26px;
+	height: 26px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+.switchToggle input:checked+label,
+.switchToggle input:checked+input+label {
+	background: #cf993f;
+}
+
+.switchToggle input+label:before,
+.switchToggle input+input+label:before {
+	content: 'No';
+	position: absolute;
+	top: 5px;
+	left: 35px;
+	width: 26px;
+	height: 26px;
+	border-radius: 90px;
+	transition: 0.3s;
+	text-indent: 0;
+	color: #fff;
+}
+
+.switchToggle input:checked+label:before,
+.switchToggle input:checked+input+label:before {
+	content: 'Yes';
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	width: 26px;
+	height: 26px;
+	border-radius: 90px;
+	transition: 0.3s;
+	text-indent: 0;
+	color: #fff;
+}
+
+.switchToggle input:checked+label:after,
+.switchToggle input:checked+input+label:after {
+	left: calc(100% - 2px);
+	transform: translateX(-100%);
+}
+
+.switchToggle label:active:after {
+	width: 60px;
+}
+
+.toggle-switchArea {
+	margin: 10px 0 10px 0;
+}
+
+
+/*eachprivelage style*/
+.privelage-box {
+    display: inline-block;
+    width: 50%;
+    margin: 10px 0;
+    float: left;
+}
+.switchToggle {
+    display: inline-block;
+    float: left;
+}
+.switchtoggle label{
+    margin-bottom: 0;
+}
+.privelage-input {
+    display: inline-block;
+    margin: 0 10px;
+    float: left;
+    width: 40%;
+}
+.privelage-check {
+    display: inline-block;
+    margin: -4px 0px;
+    float: left;
+    position: relative;
+}
+.privelage-check .readinput{
+	position: absolute;
+	top: 17px;
+	left: 18px;
+	cursor: pointer;
+}
+ .privelage-check input[type="checkbox"] {
+      border: 1px solid #fff; 
+   }
+.privelage-check .writeinput{
+	position: absolute;
+	top: 17px;
+	right: 18px;
+	cursor: pointer;
+}
+.privelage-check div {
+    display: inline-block;
+    padding: 0 10px;
+ }
+ .form-group .label-input{
+ 	width: 100%;
+ }
+/**/
+.redbtn-block{
+	width: 100%;
+	display: inline-block;
+	margin: 15px 0;
+}
+/**/
+
+
+/*new design*/
+.inner-boxstyle{
+	margin: 0 auto;
+	width: 100%;
+	padding: 45px 60px;
+}
+.inner-boxstyle .box-body{
+	padding: 20px;
+}
+.inner-boxstyle .box-header {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    position: relative;
+    background: #d1a050;
+
+}
+/**/
+.login-form .form-control {
+    border-radius: 3px;
+}
+.errorbox{
+	margin: 15px 0;
+	line-height: 18px;
+}
+.errorbox p{
+	margin-bottom: 0;
+}
+
+.totalvalbox {
+    width: 88%;
+    float: right;
+}
+.totalvalbox .totalvalsubbox {
+    display: inline-block;
+    width: 10.1%;
+    padding: 0 15px 15px 15px;
+}
+
+
+.bluecol{
+ color: blue;
+ font-weight: 600;
+}
+
+.greencol{
+ color: green;
+  font-weight: 600;
+}
+.totalvalbox .totalvalsubbox1 {
+    display: inline-block;
+    width: 12.5%;
+    padding: 0 15px 15px 15px;
+}

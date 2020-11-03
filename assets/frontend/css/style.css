@@ -1,0 +1,28 @@
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+
+
+html,body  
+{ 
+	width: 100%;
+	overflow: hidden; 
+}
+.quotes {display: none;}
+.comingsoon h1{
+	text-align: center;
+	font-size: 80px;
+	/*margin: 150px 0;*/
+	font-weight: 600;
+	position: absolute;
+	top: 40%;
+	bottom: 40%;
+	left: 20%;
+	right: 20%;
+	vertical-align: middle;
+	
+	
+}

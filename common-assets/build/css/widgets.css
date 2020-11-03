@@ -1,0 +1,60 @@
+.teacher-listing {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.teacher-listing > li {
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 10px;
+  padding: 0 0 10px;
+}
+.teacher-listing > li:last-child{ border: none; }
+.image-section {
+  float: left;
+  width: 40px;
+  margin-top: 5px;
+}
+.image-section .avtar-image {
+  height: 30px;
+  width: 30px;
+}
+.first-col > span {
+  color: #bcbcbc;
+  float: right;
+  font-size: 11px;
+}
+.message-col {
+  display: inline-block;
+  font-size: 12px;
+  width: 86%;
+}
+.btn.btn-view-all {
+  bottom: -5px;
+  left: 0;
+  padding: 8px 0;
+  position: absolute;
+  width: 100%;
+}
+.max-270 { height: 278px; }
+.max-265 { height: 265px; }
+.pb-40 { padding-bottom: 40px; }
+
+.subject_text dt { font-size: 12px; font-weight: normal; }
+.subject_text dt i{ font-style: normal; padding: 0 5px; }
+.subject_text dt label { font-size: 12px; }
+
+.timetable_table td { position: relative; }
+.timetable_table .action_btns { display: none; position: absolute; right: 5px; top: 5px; width: 25px; transition: .3s all ease; }
+.timetable_table td:hover .action_btns { display: block; }
+
+
+.pl0 { padding-left: 0 !important; }
+.pr0 { padding-right: 0 !important; }
+.mr5mt0 .switchery { margin-right: 5px; margin-top: 0; }
+#smartAlert { z-index: 9999; }
+.with_prac { float: left; margin-right: 10px; max-width: 60px; }
+.is_mentor {  }
+.is_mentor.is_mentor_0 { display: none; }
+
+.navbar-default #navbar-filter .btn.btn-default { border: medium none; color: #F06292 !important; margin: 0; }
+/*#navbar-filter .fa.fa-calendar { color: blue; }*/
